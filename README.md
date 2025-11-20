@@ -1,10 +1,10 @@
-# Customer Default Risk Analysis and Segmentation Dashboard
-This project focused on analyzing customer financial and demographic data to segment clients based on their credit risk levels. Using Excel for data cleaning and transformation, and Power BI for visualization, the analysis identified patterns and characteristics linked to higher default rates. The goal was to provide actionable insights to help improve lending strategies and reduce financial risk. 
+# Customer Default Risk Segmentation and Analysis
+This project focused on segmenting and analyzing customer financial data for a credit card provider to predict default behaviour of its users allowing the company to improve it's lending strategies and reduce financial risk
 
-### Objective: Identify high-risk customer segments to improve credit policies and reduce default rates and develop actionable insights to support targeted credit risk management and mitigate future defaults.
+### Project Objective
+To segment customers based on credit risk and financial behavior, identify predictors of default, and generate actionable insights that optimize credit policies, reduce financial losses, and enhance retention of valuable customers. By completing this project, stakeholders identify default risk users and prevent them before it happens through strategies and policies for targeted credit risk management
 
-### Key Features
-- Interactive Power BI dashboard
+### Project Background
 
 ### Dashboard
 [View the interactive Power BI dashboard](https://app.powerbi.com/reportEmbed?reportId=8caf2214-aa92-4660-b08e-7d57fc574beb&autoAuth=true&ctid=bd697c1b-c481-479c-841e-c618542675c3)
