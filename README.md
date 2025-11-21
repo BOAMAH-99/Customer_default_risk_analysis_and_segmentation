@@ -142,3 +142,6 @@ At the same time, the company will be able to focus on customers who still bring
 Overall, the dashboard gives teams the power to make fast, confident decisions backed by data. This boosts financial performance, strengthens trust with partners, and opens the door for sustainable, intelligent growth.
 
 #### The customer default segmentation analysis clearly shows that grouping customers based on their financial behavior and risk factors brings measurable business benefits. By identifying which segments are most likely to default and which offer high lifetime value, allows a more targeted intervention that reduces losses and improve retention.
+
+#### [Power BI Dashboard (.pbix)](https://github.com/BOAMAH-99/Customer_default_risk_analysis_and_segmentation/blob/f9fde6b2a8596b3d20b59d8345728c38f0a1aa73/Dashboard/CREDIT%20AND%20TRANSACTION%20DASHBOARD.pbix) 
+#### [Dataset: railway.csv](https://github.com/BOAMAH-99/Customer_default_risk_analysis_and_segmentation/blob/f9fde6b2a8596b3d20b59d8345728c38f0a1aa73/Dataset/DATASET.csv)
