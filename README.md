@@ -40,12 +40,56 @@ Use insights to gauge company reliability, build trust, and inform investment de
 #### Regulatory and Compliance Team:
 Need to ensure lending fairness, ethical handling of risky customers, and compliance with regulations.
 
-Use insights to maintain transparent, compliant practices and avoid penalties or reputational damage.
-[View the interactive Power BI dashboard](https://app.powerbi.com/reportEmbed?reportId=8caf2214-aa92-4660-b08e-7d57fc574beb&autoAuth=true&ctid=bd697c1b-c481-479c-841e-c618542675c3)
+### Key Questions to Answer
+- Which customer segments are most likely to default?
+- What behavior trend best predict customer default risk?
+- How does credit utilization affect the likelihood of late payment and default?
+- What customer profiles (age, employment status, income level) show higher risk patterns?
+- Which moderate-risk customers are valuable enough to prioritize for retention?
+- How early can we detect customers moving toward default (early warning indicators)?
+- Which interventions (payment reminders, restructuring offers, credit limit adjustments) can reduce default risk most effectively?
+- How do high-risk customers impact revenue, CLV, and overall financial performance?
+- Which risk mitigation strategies maintain profitability without losing valuable customers?
+- How should the business allocate resources (collections effort, support, monitoring) based on customer risk tier?
 
-_or view below:_
+### Analytical Steps, Activities, Methodology & Reasoning
+#### Data Understanding and Requirement Definition
+- Reviewed customer demographic, behavioral, and financial attributes.
+- Identified key indicators affecting credit risk: credit score, utilization, payment history, income, CLV.
+- Defined business goals (risk reduction + profitable retention) to guide modeling and segmentation.
 
-<iframe title="CREDIT AND TRANSACTION DASHBOARD" width="1140" height="541.25" src="https://app.powerbi.com/reportEmbed?reportId=8caf2214-aa92-4660-b08e-7d57fc574beb&autoAuth=true&ctid=bd697c1b-c481-479c-841e-c618542675c3" frameborder="0" allowFullScreen="true"></iframe>
+Reasoning: Aligning analysis with business outcomes ensures the insights translate into strategic decisions rather than just descriptive statistics.
+
+#### Data Cleaning & Preparation
+- Handled missing values, normalized formats (dates, categories), corrected errors.
+- Created binary and numerical features: Late Payment Count, Risk Flags, Default Indicator.
+- Removed irrelevant or duplicate records.
+  
+Reasoning: High-accuracy risk modeling depends on clean, consistent, and unbiased data.
+
+#### Feature Engineering & Metric Creation
+- Built key indicators such as Credit Utilization Score, Risk Tier, Customer Lifetime Value (CLV).
+- Derived early-warning features like Payment Frequency Trend, Late Payment Ratio, and Income-Risk Index.
+
+Reasoning: Raw data alone cannot reveal risk patterns; engineered features reveal hidden behaviors that predict default.
+
+#### Customer Segmentation and Risk Profiling
+- Grouped customers into Low, Moderate, High risk tiers using utilization, payment behavior, and credit score.
+- Cross-analyzed risk with demographics (age, employment) and revenue potential (CLV).
+
+Reasoning: Segmentation helps differentiate between high-risk customers to retain vs. those requiring stricter credit policies.
+
+#### Insight Visualization and Interpretation
+- Used Power BI to create dashboards (risk matrix, heatmaps, KPIs, trend charts).
+- Highlighted patterns (age + risk, employment + CLV, utilization thresholds).
+
+Reasoning: Visual analytics enables decision makers to quickly detect risk drivers and take targeted action.
+
+#### Strategy Development and Recommendations
+- Proposed actionable interventions (alerts, credit restructuring, tailored repayment, customer monitoring tiers).
+- Linked insights to business metrics: reduced bad debt, improved retention of profitable customers.
+
+Reasoning: Analysis is valuable only when it leads to decisions that improve financial outcomes
 
 ### Tools and Skills Used
 - Power BI (interactive Dashboards, DAX, visuals, KPIs)
@@ -53,6 +97,14 @@ _or view below:_
 - Data Transformation
 - Credit Risk Analytics
 - Segmentation Analytics
+
+### Dashboard
+
+#### Page one
+<p align="center"><img src="https://github.com/BOAMAH-99/Customer_default_risk_analysis_and_segmentation/blob/78e371e820cce15eecb5f418630b7e6ca7ea3672/Dashboard/Customer%20Default%20Risk%20Analysis%20and%20Segmentation%20Dashboard%201.jpg" width="800"></p>
+
+#### Page two
+<p align="center"><img src="https://github.com/BOAMAH-99/Customer_default_risk_analysis_and_segmentation/blob/78e371e820cce15eecb5f418630b7e6ca7ea3672/Dashboard/Customer%20Default%20Risk%20Analysis%20and%20Segmentation%20Dashboard%202.jpg" width="800"></p>
 
 ### Key Findings:
 - High credit utilization and low credit scores are strong predictors of default risk.
